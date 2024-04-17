@@ -1,0 +1,700 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    background-color: transparent;
+}
+.header{
+    border: 1px solid black;
+    border-left:none ;
+    border-right: none;
+      top: 10px;
+      left: 0px;
+      width: 99%;
+      position: relative;
+      padding: 3px;
+      background: transparent;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:transparent;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      
+      .navbar a{
+      font-size: 20px;
+      border-right: 2px solid black;
+      padding-right: 25px;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      margin-left: 35px;
+      transition: 0.3s;
+      }
+      .navbar a:hover,
+       .navbar a.active{
+          color: red;
+          text-shadow: 1px 2px 20px blue;
+      }
+      .navbar button{
+        margin-top: 5px;
+        background-color: rgb(1, 48, 7);
+        width: 100;
+        border-radius: 50px;
+        height: 45px;
+        margin-left: 35px;
+        margin-bottom: 5px;
+      }
+  .navbar button a{
+    margin-right: 0px;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 4px 25px blue;
+
+text-align: center;
+border: none;
+  }
+      .header {
+          font-size: 3vh;
+          font-weight: bold;
+      }
+      .h12h a{
+        font-size: 5vh;
+        font-weight: bold;
+
+      }
+    .home{
+        background-color: white;
+        width: 99%;
+        margin-right: 15px;
+        margin-left: 10px 10px 10px 10px;
+        height: 530px;
+        border: 2px solid black;
+        border-top:none ;
+        border-left:none ;
+        border-right: none;
+    }
+    .bgl{
+        background-color: white;
+        margin: 45px;
+        padding: 0px;
+    }
+    .bgl h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:13vh;
+        line-height: 1.1;
+        margin: 5px;
+    }
+    .bgl p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:5vh;
+        line-height: 1.1;
+        margin: 10px;
+    }
+    .bgl button{
+        margin: 30px;
+        border-radius: 45px;
+        border-color: black;
+        background-color: rgb(255, 255, 0, 0.6);
+        
+    }
+    
+    .bgl button a{
+        text-decoration: none;
+        color: black;
+        font-size: 2.5vh;
+    }
+    .bgl button a:hover{
+        color:red;
+        
+        
+    }
+    .home1{
+        margin: 0;
+        border: 2px solid black;
+        padding-top:15px ;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 140px;
+        height: 600px;
+        width: 99%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .img{
+        margin: 100px;
+margin-top: 20px;
+        height: 100px;
+        width: 70%;
+    }
+    .home2{
+        background-color: white;
+        height: 650px;
+        border-bottom: 3px solid black;
+
+       
+        
+    }
+    .cs{
+        background-color: white;
+        width: 48%;
+        height: 500px;
+        display: inline-block;
+        
+    }
+    .cs img{
+        height: 600px;
+        width: 98.4%;
+        border-right: 2px solid black;
+        
+    }
+    .ls{
+        background-color: white;
+        width: 45%;
+        position: relative;
+        bottom: 90px;
+        left: 10px;
+        margin: 7.1px;
+        padding: 0px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+    }
+    .ls h6{
+        color:black;
+    
+        font-size: 11vh;
+        margin: 0px 10px;
+        text-align: start;
+    }
+    .ls p{
+        color: black;
+        font-size: 3vh;
+        text-align: start;
+    }
+    .ls button{
+        margin: 20px;
+        padding: 10px;
+        align-items: center;
+        background-color: yellow;
+        border-radius: 50px;
+        margin-left: 5px;
+        width: 50%;
+        height: 60px;
+        font-size: 22px;
+    }
+    .ls button a{
+        text-decoration: none;
+        font-size: 2vh;
+        color: black;
+        font-weight: bold;
+    }
+    .ls button a:hover{
+        color: aqua;
+    }
+    .classes{
+        background-color: white;
+        width: 100%;
+        height: 840px;
+        
+    }
+    .our{
+        margin: -9px;
+    
+        background-color: white;
+        width: 48%;
+        display: inline-block;
+        height: 750px;
+        text-align: center;
+        border-right: 2px solid black;
+    }
+    .our1{
+        margin: 0px;
+        
+        text-align: start;
+    }
+    .our1 h3{
+        font-size: 10vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .pic{
+        background-color: transparent;
+        width: 48%;
+        display: inline-block;
+        height: 550px;
+        position: relative;
+        bottom: 0px;
+        top: 8px;
+    }
+    .pic img{
+        width: 104%;
+        height: 140%;
+    }
+    .text23{
+        background-color: white;
+        margin: 30px;
+        line-height: 1px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 20px;
+    }
+    .brdr{
+        border-top: 2px solid black;
+    }
+    .text23 h6{
+        font-size: 8vh;
+        margin: 0px;
+        font-family: serif;
+        text-align: start;
+        
+        
+       
+        
+    }
+    .our button{
+        border-radius: 50px;
+        margin-right: 5px;
+        padding: 15px;
+        margin-left: 130px;
+        background-color: yellow;
+    }
+    .our button:hover{
+        box-shadow: 2px 2px 20px blue;
+        transition: 0.1s ease-in-out;
+
+    }
+    .our button a{
+        text-decoration: none;
+        font-size: 4vh;
+        padding: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: green;
+    }
+    .word{
+        background-color: whitesmoke;
+        margin: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    width: 100%;
+    height: 450px;
+    }
+    .wordh{
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        margin: 1px;
+        padding: 15px;
+        background-color: transparent;
+        width: 97.9%;
+        text-align: center;
+    }
+    .wordh h2{
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+
+    }
+    .wordc{
+        background-color: transparent;
+        width: 30%;
+        display: inline-block;
+        height: 300px;border-right: 2px solid black;
+        
+    }
+    .wordl{
+        background-color: transparent;
+        width: 30%;
+        display: inline-block;
+        height: 300px;
+        margin: 10px;
+        border-right: 2px solid black;
+
+    }
+    .wordl sup{
+        color: black;
+        font-size: 10vh;
+
+    }
+    .wordl1 {
+        margin: 55px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .wordr{
+        background-color: transparent;
+        display: inline-block;
+        width: 30%;
+        height: 300px;
+        margin: 10px;
+        
+        
+    }
+    .wordr1 {
+        margin: 55px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .wordc1 {
+        margin: 55px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .wordc sup{
+        color: black;
+        font-size: 10vh;
+
+    }
+    .wordr sup{
+        color:black;
+        font-size: 10vh;
+
+    }
+    .follow{
+        margin: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        
+        
+        background-color: rgb( 243,255,196 );
+        width: 98.7%;
+        height: 750px;
+    }
+    .fr{
+        margin: 0px;
+        padding: 0px;
+    }
+    .frp3{
+        background-color: transparent;
+        width: 45%;
+        display: inline-block;
+        
+        justify-content: space-between;
+    }
+    .frp3 img{
+        margin: 10px;
+        height: 450px;
+        width: 450px;
+    }
+    .frp1{
+        background-color: transparent;
+        width: 25%;
+        display: inline-block;
+        
+        justify-content: space-between;
+        margin-top:5px ;
+    }
+    .frp1 img{
+        margin-bottom: 130px;
+        padding: 25px;
+        margin-left: 90px;
+    }
+    .frp2{
+        background-color: transparent;
+        width: 20%;
+        display: inline-block;
+        position: relative;
+        bottom: 5px;
+        left: 20px;
+        z-index: 40px;
+        justify-content: space-between;
+    }
+    .frp2 img{
+        margin: -100px;
+        padding: 35px;
+        width: 200px;
+        margin-left: 80px;
+    }
+    .frp{
+        margin: 30px;
+        padding: 15px;
+        
+        
+    }
+    .footer{
+        background-color: white;
+        width: 100%;
+        margin-top: 20px;
+     margin-bottom: 10px;
+     padding-right: 0;
+        height: 550px;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+    .add{
+        background-color: transparent;
+        width: 18%;
+        display: inline-block;
+        margin: 0px;
+        height: 420px;
+        z-index: 100;
+        position: relative;
+        bottom: 55.5px;
+    }
+    .mnu{
+        background-color: transparent;
+        
+        width: 18%;
+        display: inline-block;
+        height: 250px;
+        line-height: 1.1;
+        position: relative;
+        bottom: 158.4px;
+        right:10px;
+       
+    }
+    .soc{
+        background-color: transparent;
+        width: 15%;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    bottom: 168.5px;
+    right: 20px;
+    height: 320px;
+    border-right: 2px solid black;
+    }
+    .git{
+        background-color: transparent;
+        margin-top: 50px;
+        width: 35%;
+position: relative;
+        display: inline-block;
+        top: 41.5px;
+        left: 30px;
+        width: 550px;
+    }
+    #addh12{
+        color: transparent;
+        font-family: sans-serif;
+        color: rgb(1, 49, 38);
+        font-size: 22px;
+    }
+    hr{
+        border-bottom:2px solid black;
+        border-right: none;
+        border-top: none;
+        border-left: none;
+        width: 20%;
+        margin-left: 10px;
+    }
+    .addp12{
+        background-color: transparent;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    #pp{
+        color: transparent;
+    }
+    #addddd{
+        font-size: 18px;
+    }
+    #rp{
+        color: black;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    #mnuh{
+        background-color: transparent;
+        font-size: 22px;
+        font-family: sans-serif;
+        color: rgb(1, 49, 38);
+    }
+    .mnue1{
+        background-color: transparent;
+        margin-top: 50px;
+        color: rgb(1,49,38);
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+    .mnue2, .mnue3 , .mnue4{
+        background-color: transparent;
+        margin-top: 0px;
+        font-size: 16px;
+        font-family: sans-serif;
+        color: rgb(1,49,38);
+    }
+    .mnue2, .mnue3, .mnue4, a{
+        text-decoration: none;
+        color:rgb(1,49,38);
+    }
+    .gith{
+        color: transparent;
+        margin: 0px;
+    }
+    .socp{
+        background-color: white;
+        margin-top: 36.9px;
+        padding: 0px;
+    }
+    .soc1, .soc2 , .soc3 , .soc4 ,a{
+        text-decoration: none;
+        color:rgb(1,49,38);
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+    .giti{
+        background-color: transparent;
+        width: 100%;
+    }
+    #githe{
+        color: rgb(1,49,38);
+        font-size: 22px;
+        letter-spacing: 0em;
+    }
+     .gitl{
+        display: inline-block;
+        background-color: transparent;
+        width: 42%;
+        
+    }
+    .gitf{
+        background-color:transparent;
+        width: 42%;
+        display: inline-block;
+       
+    }
+    
+    .gitf1 input{
+        border-bottom: 2px solid black;
+        border-right:none ;
+        border-top: none;
+        border-left: none;
+        background-color: transparent;
+        width: 200px;
+    }
+    .gitm, em, label{
+        font-size: 16px;
+        color: rgb(1,49,38);
+        font-family: sans-serif;
+        
+    }
+    .gitem input{
+        border-bottom: 2px solid black;
+        border-right:none ;
+        border-top: none;
+        border-left: none;
+        background-color: transparent;
+        width: 450px;
+    }
+    .button1{
+        
+        text-align: center;
+    }
+    .button1 button{
+        background-color: yellow;
+        width: 350px;
+        border-radius: 50px;
+        border: 1.5px solid black;
+    }
+    .button1 button:hover{
+        color: aqua;
+    }
+    .prp{
+        margin-top: 10px;
+        margin-left: 30px;
+        /*background-color: red;*/
+        text-align: center;
+        font-size: 13px;
+        font-family: sans-serif;
+    }
+    .prp a{
+        color: black;
+        font-size: 13px;
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+    .ofp{
+        background-color: beige;
+        height: 650px;
+        width: 100%;
+    }
+    .ofp1{
+        background-color: blue;
+        height: 600px;
+
+    }
+    .ofp1h{
+        background-color: aquamarine;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .ofp1h h1{
+        font-size: 22px;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    .ofp1hs1{
+        background-color: red;
+        height: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+    .su-box1{
+        background-color: beige;
+        width: 30%;
+        display: inline-block;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    #su-h4{
+        background-color: red;
+        text-align: center;
+    }
+    #su-h6{
+        background-color: tr;
+        font-size: 30px;
+        
+        position: relative;
+        text-align: center;
+        right: 40px;
+        z-index: 1;
+    }
+    #su-h2{
+        background-color: red;
+        font-size: 50px;
+        position: relative;
+        text-align: center;
+        width: 60%;
+        right: -10px;
+        bottom: 40px;
+    }
+    #su-p1{
+        background-color: yellow;
+        position: relative;
+        bottom: 40px;
+        left: 25px;
+        text-align: center;
+    }
+    #su-p2{
+        background-color: red;
+        text-align: center;
+        position: relative;
+        bottom: 40px;
+        left: 25px;
+    }
+    .su-box2{
+        background-color: aquamarine;
+        width: 40%;
+        margin-left: 50px;
+        height: 200px;
+        display: inline-block;
+    }
+    .ofp1b123{
+        margin-top: 2px;
+        background-color: red;
+        text-align: center;
+        border: 200px;
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+    .ofp1b123 button{
+        border: 2px solid black;
+        width: 250px;
+        border-radius: 50px;
+    }
